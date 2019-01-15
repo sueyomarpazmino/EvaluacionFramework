@@ -1,0 +1,124 @@
+body{
+  background: url(../img/fondo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#contenedor{
+  background: rgba(50,46,103,0.40);
+}
+.txt_cab{
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 40px;
+  font-style: oblique;
+}
+.imagenes{
+  border-radius: 5px;
+}
+.imagen_coli{
+  border-radius: 5px;
+  width: 300px;
+  height: 250px;
+  margin-right: 100px;
+}
+.imagen_cold{
+  border-radius: 5px;
+  margin-left: 60px;
+  width: 335px;
+  height: 180px;
+}
+.imagen_cen{
+  border-radius: 5px;
+  width: 115%;
+  height: 580px;
+}
+.imagen_autor{
+  margin-top: 10px;
+}
+.fondo2{
+  background: white;
+  border-radius: 5px;
+  margin-left: 1% !important;
+}
+.fondo3{
+  background: white;
+  border-radius: 5px;
+  margin-left: 2% !important;
+}
+.fondo4{
+  background: #3498DB;
+  border-radius: 5px;
+  margin-left: 1% !important;
+}
+#perfil{
+  font-style: normal;
+  font-size: 20px;
+}
+#img_documento{
+  margin-top: 10px;
+}
+.titulo{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-style: normal;
+}
+.titulo_c{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-style: normal;
+}
+.texto1{
+  font-size: 18px;
+  text-align: justify;
+}
+.boton{
+  margin-bottom: 15px;
+}
+@media (max-width: 770px){
+
+  .imagen_coli{
+    border-radius: 5px;
+    width: 410px;
+    height: 300px;
+  }
+  .imagen_cold{
+    border-radius: 5px;
+    margin-left: auto;
+    width: 410px;
+    height: 300px;
+  }
+  .imagen_cen{
+    border-radius: 5px;
+    width: 410px;
+    height: 580px;
+  }
+  .fondo2{
+    margin-rigth: 5% !important;
+  }
+  .fondo3{
+    margin-left: 1% !important;
+  }
+  .texto1{
+    font-size: 14px;
+    text-align: justify;
+  }
+  .txt_cab{
+    margin-top: 5px;
+    margin-left: 2px;
+    font-size: 30px;
+    font-style: oblique;
+  }
+  .titulo{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 390px;
+    height: 300px;
+  }
+  .boton{
+    margin-left: 160px;
+  }
+}

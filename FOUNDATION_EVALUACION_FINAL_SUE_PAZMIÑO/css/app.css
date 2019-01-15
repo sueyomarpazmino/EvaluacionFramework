@@ -1,0 +1,138 @@
+body{
+  background: url(../img/res3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#cabecera{
+  width: 100% auto;
+  height: 150px;
+  background: rgba(50, 46, 103, 0.30);
+  border-bottom-style: groove;
+}
+#bloque1{
+  border-right-style: groove;
+}
+.slogan{
+  text-align: right;
+}
+#cuerpo1{
+  width: 100% auto;
+  height: 2500px;
+  background: rgba(50, 46, 103, 0.30);
+  color: #2471A3;
+}
+#cuerpo2{
+  width: 100% auto;
+  height: 2500px;
+  background: rgba(50, 46, 103, 0.30);
+  color: #2471A3;
+}
+#menu{
+  color: #2471A3;
+}
+#bloque2{
+  height: 610px;
+  background: #9E9E9E;
+}
+#fondo_i{
+  background: #9E9E9E;
+}
+#fondo_d{
+  background: #F8BBD0;
+}
+#fondo_d2{
+  background:#FFF59D;
+}
+#buscar{
+  margin-top: 5px;
+}
+.historial{
+  margin-left: 15px;
+  color: #2471A3;
+}
+#lista{
+  margin-left: 30px;
+  color: #2471A3;
+}
+#foto_receta{
+  margin-top: 10px;
+  width: 600px;;
+  height: 600px;;
+}
+.texto{
+  text-align: justify;
+  margin: 10px;
+  border-bottom-style: groove;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#fecha{
+  color: gray;
+  text-align: left;
+  padding-left: 35px;
+}
+#comentario{
+  color: gray;
+  text-align: left;
+  padding-left: 30px;
+}
+#seguidor{
+  background: #F8BBD0;
+  border: 1px solid white;
+  margin-left: 30px;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 90%;
+  height: auto;
+}
+#seguidor2{
+  background: #FFF59D;
+  border: 1px solid white;
+  margin-left: 30px;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 90%;
+  height: auto;
+}
+#logo_p{
+ margin-left: 300px;
+}
+#us1{
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 60px;
+  height: 70px;
+}
+#area_texto{
+  margin-left: 30px;
+  border-radius: 5px;
+  width: 92%;
+  height: 50px;
+}
+#publicar{
+  margin-left: 75%;
+  margin-top: -15px;
+  border-radius: 3px;
+}
+#texto_us1{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+@media (max-width: 770px){
+  #foto_receta{
+    margin-top: 10px;
+    width: 400px;;
+    height: 400px;;
+  }
+  #cuerpo2{
+    width: 100% auto;
+    height: 2300px;
+    background: rgba(50, 46, 103, 0.30);
+    color: #2471A3;
+  }
+}
